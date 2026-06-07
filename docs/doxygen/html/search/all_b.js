@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['send_5fmsg_0',['send_msg',['../namespacecommon.html#a3c4bcdcea22cc69d9fc1a4dfd0dfe564',1,'common']]],
+  ['serialize_5fcert_1',['serialize_cert',['../namespacecommon.html#a2f2e6e31854e39883b20b871f1d554c1',1,'common']]],
+  ['serialize_5fprivate_5fkey_2',['serialize_private_key',['../namespacecommon.html#aac39100bfc234826fc4131ad98d91c87',1,'common']]],
+  ['serialize_5fpublic_5fkey_3',['serialize_public_key',['../namespacecommon.html#afdb954f1e4d1b1460b550027d6dbcef8',1,'common']]],
+  ['server_4',['server',['../namespaceserver.html',1,'server'],['../classserver_1_1Server.html',1,'server.Server']]],
+  ['server_2epy_5',['server.py',['../server_8py.html',1,'']]],
+  ['server_5fcert_5fpem_6',['server_cert_pem',['../classserver_1_1Server.html#aa596a913af1904c9234da464cb8d23d5',1,'server::Server']]],
+  ['server_5fhost_7',['server_host',['../classserver_1_1Server.html#a1c83480db1fe64c4c9954c67f9e4a660',1,'server.Server.server_host'],['../namespacecommon.html#aa3aa4f7e8855cd7dbadee9056b434aa4',1,'common.SERVER_HOST']]],
+  ['server_5fid_8',['server_id',['../classserver_1_1Server.html#af5c733a446d2f36a0fba25fda409281f',1,'server::Server']]],
+  ['server_5fid_5fhash_9',['server_id_hash',['../classserver_1_1Server.html#a6bae4226cc6d2c56227a4b461764c3e7',1,'server::Server']]],
+  ['server_5fkey_10',['server_key',['../classserver_1_1Server.html#a712e9b503a8e713b6e2354a65b0074b7',1,'server::Server']]],
+  ['server_5fport_11',['server_port',['../namespacecommon.html#a4aa8254a9dcb1b71792b4c32b59f9624',1,'common.SERVER_PORT'],['../classserver_1_1Server.html#a0d60a300c856f1fb495d983f1201b1bc',1,'server.Server.server_port']]],
+  ['server_5fsock_12',['server_sock',['../classclient_1_1ClientGUI.html#a63da2dfbb09a112e8a3b39aada7380b8',1,'client::ClientGUI']]],
+  ['servers_13',['servers',['../classttp_1_1TTP.html#ae5de9779735435e4b080f12d971882ab',1,'ttp::TTP']]],
+  ['session_5factive_14',['SESSION_ACTIVE',['../classclient_1_1Status.html#a43a41734f606e5c12a33526750990187',1,'client::Status']]],
+  ['session_5fclient_15',['session_client',['../classserver_1_1Server.html#a2e5a9d744fad31088569c7c0ad5b8b34',1,'server::Server']]],
+  ['session_5fevent_16',['session_event',['../classserver_1_1Server.html#a2f354ac49f5b33c47b363efbf00d2164',1,'server::Server']]],
+  ['session_5fkey_17',['session_key',['../classclient_1_1ClientGUI.html#a421804a35aa0f5ca22a945e4888f0b59',1,'client.ClientGUI.session_key'],['../classserver_1_1Server.html#a8f978e49a33b6aae97eecc563838d59a',1,'server.Server.session_key']]],
+  ['srv_5fhost_5fvar_18',['srv_host_var',['../classclient_1_1ClientGUI.html#ab322e0aba58c0f4deaad7b0264d63262',1,'client::ClientGUI']]],
+  ['srv_5fport_5fvar_19',['srv_port_var',['../classclient_1_1ClientGUI.html#a5ab71f0e0226d12465d5897efe881a74',1,'client::ClientGUI']]],
+  ['start_20',['start',['../classttp_1_1TTP.html#acff5475581513101289482511eb43153',1,'ttp.TTP.start()'],['../classserver_1_1Server.html#a7712b83449d5e1ec1f2bb5c213e96e33',1,'server.Server.start()']]],
+  ['status_21',['status',['../classclient_1_1ClientGUI.html#a407e3817fc8fa2d07738d8a169dd2069',1,'client.ClientGUI.status'],['../classclient_1_1Status.html',1,'client.Status']]],
+  ['status_5fcanvas_22',['status_canvas',['../classclient_1_1ClientGUI.html#ac6725108d0b35ae6335b6c0dcf36cc97',1,'client::ClientGUI']]],
+  ['status_5findicator_23',['status_indicator',['../classclient_1_1ClientGUI.html#ae414d81c453f883ca04321430939a811',1,'client::ClientGUI']]],
+  ['status_5flabel_24',['status_label',['../classclient_1_1ClientGUI.html#af2c35b819edc86aa581bf8e6ef754204',1,'client::ClientGUI']]]
+];

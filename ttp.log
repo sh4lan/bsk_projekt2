@@ -1,0 +1,29 @@
+2026-06-07 17:08:59,430 [INFO] TTP started — RSA keypair and self-signed cert generated
+2026-06-07 17:09:31,315 [INFO] TTP started — RSA keypair and self-signed cert generated
+2026-06-07 17:09:31,315 [INFO] Listening on 127.0.0.1:4444
+2026-06-07 17:09:41,771 [INFO] New connection from 127.0.0.1:37342
+2026-06-07 17:09:41,771 [INFO] Sent TTP public key to 127.0.0.1:37342
+2026-06-07 17:09:41,783 [INFO] Registered server 'Server-01' (id_hash=868dacd6fd42fb85) — certificate issued
+2026-06-07 17:19:37,775 [INFO] TTP started — RSA keypair and self-signed cert generated
+2026-06-07 17:19:37,775 [INFO] Listening on 127.0.0.1:4444
+2026-06-07 17:19:45,758 [INFO] New connection from 127.0.0.1:59144
+2026-06-07 17:19:45,759 [INFO] Sent TTP public key to 127.0.0.1:59144
+2026-06-07 17:19:45,769 [INFO] Registered server 'Server-01' (id_hash=868dacd6fd42fb85) — certificate issued
+2026-06-07 17:20:20,729 [INFO] New connection from 127.0.0.1:33682
+2026-06-07 17:20:20,729 [INFO] Sent TTP public key to 127.0.0.1:33682
+2026-06-07 17:20:20,741 [INFO] Registered user 'User-01' (id_hash=5196a4213b1e2b92) — certificate issued
+2026-06-07 17:20:46,147 [INFO] New connection from 127.0.0.1:42356
+2026-06-07 17:20:46,147 [INFO] Sent TTP public key to 127.0.0.1:42356
+2026-06-07 17:20:46,158 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-07 17:20:46,240 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-07 17:20:46,241 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-07 17:20:46,241 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-07 17:20:46,282 [INFO] Connection closed for server 'Server-01'
+2026-06-07 17:20:46,294 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-07 17:20:46,294 [INFO] Session key sent to user 'User-01'
+2026-06-07 17:20:46,294 [ERROR] Failed to send session key to server: [Errno 9] Bad file descriptor
+2026-06-07 17:20:46,295 [ERROR] Failed to notify server of user auth: [Errno 9] Bad file descriptor
+2026-06-07 17:21:12,668 [INFO] Session closed by user 'User-01'
+2026-06-07 17:21:13,913 [INFO] Session closed by user 'User-01'
+2026-06-07 17:21:15,203 [INFO] Connection closed for user 'User-01'
+2026-06-07 17:30:00,887 [INFO] TTP shut down

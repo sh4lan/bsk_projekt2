@@ -1,0 +1,22 @@
+2026-06-07 17:09:01,170 [INFO] Connected to TTP at 127.0.0.1:4444
+2026-06-07 17:09:01,172 [INFO] Received TTP public key
+2026-06-07 17:09:01,172 [INFO] Sent registration to TTP
+2026-06-07 17:09:01,172 [ERROR] Expected CERTIFICATE from TTP
+2026-06-07 17:09:41,771 [INFO] Connected to TTP at 127.0.0.1:4444
+2026-06-07 17:09:41,772 [INFO] Received TTP public key
+2026-06-07 17:09:41,772 [INFO] Sent registration to TTP
+2026-06-07 17:09:41,823 [INFO] Received X.509 certificate from TTP
+2026-06-07 17:09:41,824 [INFO] Listening on 127.0.0.1:5555
+2026-06-07 17:09:52,271 [WARNING] TTP connection lost
+2026-06-07 17:19:45,758 [INFO] Connected to TTP at 127.0.0.1:4444
+2026-06-07 17:19:45,759 [INFO] Received TTP public key
+2026-06-07 17:19:45,760 [INFO] Sent registration to TTP
+2026-06-07 17:19:45,810 [INFO] Received X.509 certificate from TTP
+2026-06-07 17:19:45,810 [INFO] Listening on 127.0.0.1:5555
+2026-06-07 17:20:46,146 [INFO] Client connected from 127.0.0.1:45828
+2026-06-07 17:20:46,147 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-07 17:20:46,199 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-07 17:21:16,282 [ERROR] Session key timeout
+2026-06-07 17:21:16,283 [ERROR] Client handler error: [Errno 32] Broken pipe
+2026-06-07 17:30:00,906 [WARNING] TTP connection lost
+2026-06-07 17:30:02,222 [INFO] Server shut down

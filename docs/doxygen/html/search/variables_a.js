@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['server_5fcert_5fpem_0',['server_cert_pem',['../classserver_1_1Server.html#aa596a913af1904c9234da464cb8d23d5',1,'server::Server']]],
+  ['server_5fhost_1',['server_host',['../classserver_1_1Server.html#a1c83480db1fe64c4c9954c67f9e4a660',1,'server.Server.server_host'],['../namespacecommon.html#aa3aa4f7e8855cd7dbadee9056b434aa4',1,'common.SERVER_HOST']]],
+  ['server_5fid_2',['server_id',['../classserver_1_1Server.html#af5c733a446d2f36a0fba25fda409281f',1,'server::Server']]],
+  ['server_5fid_5fhash_3',['server_id_hash',['../classserver_1_1Server.html#a6bae4226cc6d2c56227a4b461764c3e7',1,'server::Server']]],
+  ['server_5fkey_4',['server_key',['../classserver_1_1Server.html#a712e9b503a8e713b6e2354a65b0074b7',1,'server::Server']]],
+  ['server_5fport_5',['server_port',['../namespacecommon.html#a4aa8254a9dcb1b71792b4c32b59f9624',1,'common.SERVER_PORT'],['../classserver_1_1Server.html#a0d60a300c856f1fb495d983f1201b1bc',1,'server.Server.server_port']]],
+  ['server_5fsock_6',['server_sock',['../classclient_1_1ClientGUI.html#a63da2dfbb09a112e8a3b39aada7380b8',1,'client::ClientGUI']]],
+  ['servers_7',['servers',['../classttp_1_1TTP.html#ae5de9779735435e4b080f12d971882ab',1,'ttp::TTP']]],
+  ['session_5factive_8',['SESSION_ACTIVE',['../classclient_1_1Status.html#a43a41734f606e5c12a33526750990187',1,'client::Status']]],
+  ['session_5fclient_9',['session_client',['../classserver_1_1Server.html#a2e5a9d744fad31088569c7c0ad5b8b34',1,'server::Server']]],
+  ['session_5fevent_10',['session_event',['../classserver_1_1Server.html#a2f354ac49f5b33c47b363efbf00d2164',1,'server::Server']]],
+  ['session_5fkey_11',['session_key',['../classclient_1_1ClientGUI.html#a421804a35aa0f5ca22a945e4888f0b59',1,'client.ClientGUI.session_key'],['../classserver_1_1Server.html#a8f978e49a33b6aae97eecc563838d59a',1,'server.Server.session_key']]],
+  ['srv_5fhost_5fvar_12',['srv_host_var',['../classclient_1_1ClientGUI.html#ab322e0aba58c0f4deaad7b0264d63262',1,'client::ClientGUI']]],
+  ['srv_5fport_5fvar_13',['srv_port_var',['../classclient_1_1ClientGUI.html#a5ab71f0e0226d12465d5897efe881a74',1,'client::ClientGUI']]],
+  ['status_14',['status',['../classclient_1_1ClientGUI.html#a407e3817fc8fa2d07738d8a169dd2069',1,'client::ClientGUI']]],
+  ['status_5fcanvas_15',['status_canvas',['../classclient_1_1ClientGUI.html#ac6725108d0b35ae6335b6c0dcf36cc97',1,'client::ClientGUI']]],
+  ['status_5findicator_16',['status_indicator',['../classclient_1_1ClientGUI.html#ae414d81c453f883ca04321430939a811',1,'client::ClientGUI']]],
+  ['status_5flabel_17',['status_label',['../classclient_1_1ClientGUI.html#af2c35b819edc86aa581bf8e6ef754204',1,'client::ClientGUI']]]
+];

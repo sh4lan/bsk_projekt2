@@ -1,0 +1,116 @@
+# Doxyfile for BSK Project (Python)
+#
+# Configuration for generating documentation from Python source files
+# using Doxygen. Run:
+#   doxygen Doxyfile
+# to generate HTML documentation in docs/doxygen/html/
+
+#---------------------------------------------------------------------------
+# Project configuration
+#---------------------------------------------------------------------------
+PROJECT_NAME           = "BSK Project — Secure Communication with TTP"
+PROJECT_NUMBER         = 1.0
+PROJECT_BRIEF          = "Security of Computer Systems — TTP-based authentication and encrypted communication"
+OUTPUT_DIRECTORY       = docs/doxygen
+CREATE_SUBDIRS         = NO
+FULL_PATH_NAMES        = YES
+STRIP_FROM_PATH        = ./
+#---------------------------------------------------------------------------
+# Source file configuration
+#---------------------------------------------------------------------------
+INPUT                  = ./
+FILE_PATTERNS          = *.py
+RECURSIVE              = NO
+EXCLUDE                =
+EXCLUDE_PATTERNS       = venv/
+EXAMPLE_PATH           =
+#---------------------------------------------------------------------------
+# Output format
+#---------------------------------------------------------------------------
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HTML_OUTPUT            = html
+HTML_HEADER            =
+HTML_FOOTER            =
+HTML_STYLESHEET        =
+HTML_EXTRA_STYLESHEET  =
+HTML_COLORSTYLE_HUE    = 220
+HTML_COLORSTYLE_SAT    = 100
+HTML_COLORSTYLE_GAMMA  = 80
+HTML_TIMESTAMP         = YES
+#---------------------------------------------------------------------------
+# Extraction settings
+#---------------------------------------------------------------------------
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_LOCAL_METHODS  = YES
+EXTRACT_ANON_NSPACES   = NO
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+HIDE_FRIEND_COMPOUNDS  = NO
+HIDE_IN_BODY_DOCS      = NO
+INTERNAL_DOCS          = NO
+CASE_SENSE_NAMES       = YES
+SHORT_NAMES            = NO
+#---------------------------------------------------------------------------
+# Python-specific settings
+#---------------------------------------------------------------------------
+OPTIMIZE_OUTPUT_JAVA   = YES
+# Treat Python docstrings as documentation blocks
+JAVADOC_AUTOBRIEF      = YES
+QT_AUTOBRIEF           = YES
+MULTILINE_CPP_IS_BRIEF = NO
+INHERIT_DOCS           = YES
+SEPARATE_MEMBER_PAGES  = NO
+TAB_SIZE               = 4
+ALIASES                =
+#---------------------------------------------------------------------------
+# Preprocessing
+#---------------------------------------------------------------------------
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = NO
+EXPAND_ONLY_PREDEF     = NO
+SKIP_FUNCTION_MACROS   = YES
+#---------------------------------------------------------------------------
+# Class and namespace documentation
+#---------------------------------------------------------------------------
+HIDE_SCOPE_NAMES       = NO
+SHOW_INCLUDE_FILES     = YES
+SHOW_GROUPED_MEMBERS   = NO
+FORCE_LOCAL_INCLUDES   = NO
+SORT_MEMBER_DOCS       = YES
+SORT_BRIEF_DOCS        = NO
+SORT_MEMBERS_CTORS_1ST = NO
+SORT_GROUP_NAMES       = NO
+SORT_BY_SCOPE_NAME     = NO
+#---------------------------------------------------------------------------
+# Diagrams
+#---------------------------------------------------------------------------
+CLASS_DIAGRAMS         = YES
+DIA_PATH               =
+HIDE_UNDOC_RELATIONS   = YES
+HAVE_DOT               = NO
+CLASS_GRAPH            = NO
+COLLABORATION_GRAPH    = NO
+GROUP_GRAPHS           = NO
+UML_LOOK               = NO
+TEMPLATE_RELATIONS     = NO
+INCLUDE_GRAPH          = NO
+INCLUDED_BY_GRAPH      = NO
+CALL_GRAPH             = NO
+CALLER_GRAPH           = NO
+GRAPHICAL_HIERARCHY    = NO
+DIRECTORY_GRAPH        = NO
+DOT_IMAGE_FORMAT       = png
+DOT_PATH               =
+DOTFILE_DIRS           =
+#---------------------------------------------------------------------------
+# Index / search
+#---------------------------------------------------------------------------
+GENERATE_TREEVIEW      = YES
+DISABLE_INDEX          = NO
+GENERATE_TAGFILE       =
+SEARCHENGINE           = YES
+SERVER_BASED_SEARCH    = NO
