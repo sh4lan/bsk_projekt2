@@ -20,3 +20,212 @@
 2026-06-07 17:21:16,283 [ERROR] Client handler error: [Errno 32] Broken pipe
 2026-06-07 17:30:00,906 [WARNING] TTP connection lost
 2026-06-07 17:30:02,222 [INFO] Server shut down
+2026-06-10 12:36:00,914 [INFO] Connected to TTP at 127.0.0.1:4444
+2026-06-10 12:36:00,917 [INFO] Received TTP public key
+2026-06-10 12:36:00,919 [INFO] Sent registration to TTP
+2026-06-10 12:36:00,969 [INFO] Received X.509 certificate from TTP
+2026-06-10 12:36:00,970 [INFO] Listening on 127.0.0.1:5555
+2026-06-10 12:37:53,006 [INFO] Client connected from 127.0.0.1:46842
+2026-06-10 12:37:53,007 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 12:37:53,095 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 12:38:23,137 [ERROR] Session key timeout
+2026-06-10 12:38:31,454 [INFO] Client connected from 127.0.0.1:49998
+2026-06-10 12:38:31,455 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 12:38:31,511 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 12:39:01,595 [ERROR] Session key timeout
+2026-06-10 12:39:01,595 [ERROR] Client handler error: [Errno 32] Broken pipe
+2026-06-10 12:39:40,696 [INFO] Server shut down
+2026-06-10 12:40:38,205 [INFO] Connected to TTP at 127.0.0.1:4444
+2026-06-10 12:40:38,206 [INFO] Received TTP public key
+2026-06-10 12:40:38,207 [INFO] Sent registration to TTP
+2026-06-10 12:40:38,256 [INFO] Received X.509 certificate from TTP
+2026-06-10 12:40:38,258 [INFO] Listening on 127.0.0.1:5555
+2026-06-10 12:41:01,438 [INFO] Client connected from 127.0.0.1:49366
+2026-06-10 12:41:01,439 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 12:41:01,540 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 12:41:31,583 [ERROR] Session key timeout
+2026-06-10 12:41:55,459 [INFO] Client connected from 127.0.0.1:34746
+2026-06-10 12:41:55,460 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 12:41:55,517 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 12:42:24,029 [INFO] Client connected from 127.0.0.1:35604
+2026-06-10 12:42:24,031 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 12:42:24,141 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 12:42:25,601 [ERROR] Session key timeout
+2026-06-10 12:42:29,690 [INFO] Client connected from 127.0.0.1:55646
+2026-06-10 12:42:29,692 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 12:42:29,772 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 12:42:54,223 [ERROR] Session key timeout
+2026-06-10 12:42:59,121 [INFO] Client connected from 127.0.0.1:39638
+2026-06-10 12:42:59,122 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 12:42:59,201 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 12:42:59,857 [ERROR] Session key timeout
+2026-06-10 12:43:04,176 [INFO] Client connected from 127.0.0.1:39654
+2026-06-10 12:43:04,177 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 12:43:04,236 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 12:43:29,285 [ERROR] Session key timeout
+2026-06-10 12:43:34,319 [ERROR] Session key timeout
+2026-06-10 12:43:44,197 [INFO] Client connected from 127.0.0.1:42266
+2026-06-10 12:43:44,199 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 12:43:44,281 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 12:43:48,356 [INFO] Client connected from 127.0.0.1:42272
+2026-06-10 12:43:48,357 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 12:43:48,408 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 12:44:14,364 [ERROR] Session key timeout
+2026-06-10 12:44:18,491 [ERROR] Session key timeout
+2026-06-10 12:44:18,492 [ERROR] Client handler error: [Errno 32] Broken pipe
+2026-06-10 12:44:33,652 [INFO] Server shut down
+2026-06-10 12:44:38,261 [INFO] Connected to TTP at 127.0.0.1:4444
+2026-06-10 12:44:38,262 [INFO] Received TTP public key
+2026-06-10 12:44:38,263 [INFO] Sent registration to TTP
+2026-06-10 12:44:38,314 [INFO] Received X.509 certificate from TTP
+2026-06-10 12:44:38,315 [INFO] Listening on 127.0.0.1:5555
+2026-06-10 12:44:59,545 [INFO] Client connected from 127.0.0.1:49728
+2026-06-10 12:44:59,546 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 12:44:59,632 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 12:45:29,674 [ERROR] Session key timeout
+2026-06-10 12:45:42,519 [INFO] Client connected from 127.0.0.1:58774
+2026-06-10 12:45:42,520 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 12:45:42,620 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 12:46:12,663 [ERROR] Session key timeout
+2026-06-10 13:01:47,753 [INFO] Connected to TTP at 127.0.0.1:4444
+2026-06-10 13:01:47,756 [INFO] Received TTP public key
+2026-06-10 13:01:47,758 [INFO] Sent registration to TTP
+2026-06-10 13:01:47,809 [INFO] Received X.509 certificate from TTP
+2026-06-10 13:01:47,810 [INFO] Listening on 127.0.0.1:5555
+2026-06-10 13:02:08,157 [INFO] Client connected from 127.0.0.1:45692
+2026-06-10 13:02:08,157 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 13:02:08,214 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 13:02:08,341 [INFO] Received session key from TTP (auth conn)
+2026-06-10 13:02:08,341 [INFO] Authentication complete — session active
+2026-06-10 13:02:19,595 [INFO] Received (encrypted): test
+2026-06-10 13:02:19,595 [INFO] Sent response: Server echo: test
+2026-06-10 13:02:27,340 [INFO] Received (encrypted): testest
+2026-06-10 13:02:27,340 [INFO] Sent response: Server echo: testest
+2026-06-10 13:02:43,126 [INFO] Session closed by client
+2026-06-10 13:02:50,026 [INFO] Client connected from 127.0.0.1:53960
+2026-06-10 13:02:50,026 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 13:02:50,083 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 13:02:50,180 [INFO] Received session key from TTP (auth conn)
+2026-06-10 13:02:50,181 [INFO] Authentication complete — session active
+2026-06-10 13:02:56,779 [INFO] Received (encrypted): tes
+2026-06-10 13:02:56,780 [INFO] Sent response: Server echo: tes
+2026-06-10 13:06:49,517 [INFO] Received (encrypted): qwerty
+2026-06-10 13:06:49,518 [INFO] Sent response: Server echo: qwerty
+2026-06-10 13:06:57,262 [INFO] Received (encrypted): wewew
+2026-06-10 13:06:57,263 [INFO] Sent response: Server echo: wewew
+2026-06-10 13:06:57,970 [INFO] Received (encrypted): w
+2026-06-10 13:06:57,971 [INFO] Sent response: Server echo: w
+2026-06-10 13:06:58,156 [INFO] Received (encrypted): w
+2026-06-10 13:06:58,157 [INFO] Sent response: Server echo: w
+2026-06-10 13:06:58,323 [INFO] Received (encrypted): w
+2026-06-10 13:06:58,324 [INFO] Sent response: Server echo: w
+2026-06-10 13:06:58,503 [INFO] Received (encrypted): w
+2026-06-10 13:06:58,504 [INFO] Sent response: Server echo: w
+2026-06-10 13:06:58,710 [INFO] Received (encrypted): w
+2026-06-10 13:06:58,711 [INFO] Sent response: Server echo: w
+2026-06-10 13:06:58,921 [INFO] Received (encrypted): w
+2026-06-10 13:06:58,922 [INFO] Sent response: Server echo: w
+2026-06-10 13:14:55,036 [INFO] Session closed by client
+2026-06-10 13:14:55,997 [INFO] Server shut down
+2026-06-10 13:15:01,280 [INFO] Connected to TTP at 127.0.0.1:4444
+2026-06-10 13:15:01,281 [INFO] Received TTP public key
+2026-06-10 13:15:01,282 [INFO] Sent registration to TTP
+2026-06-10 13:15:01,332 [INFO] Received X.509 certificate from TTP
+2026-06-10 13:15:01,332 [INFO] Listening on 127.0.0.1:5555
+2026-06-10 13:15:17,309 [INFO] Client connected from 127.0.0.1:40780
+2026-06-10 13:15:17,310 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 13:15:17,394 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 13:15:17,519 [INFO] Received session key from TTP (auth conn)
+2026-06-10 13:15:17,520 [INFO] Authentication complete — session active
+2026-06-10 13:15:20,669 [INFO] Received (encrypted): sss
+2026-06-10 13:15:20,670 [INFO] Sent response: Server echo: sss
+2026-06-10 13:15:22,971 [INFO] Received (encrypted): sdfsdf
+2026-06-10 13:15:22,972 [INFO] Sent response: Server echo: sdfsdf
+2026-06-10 13:15:30,964 [INFO] Session closed by client
+2026-06-10 13:19:16,875 [INFO] Connected to TTP at 127.0.0.1:4444
+2026-06-10 13:19:16,877 [INFO] Received TTP public key
+2026-06-10 13:19:16,878 [INFO] Sent registration to TTP
+2026-06-10 13:19:16,926 [INFO] Received X.509 certificate from TTP
+2026-06-10 13:19:42,300 [WARNING] TTP connection lost
+2026-06-10 13:19:58,940 [INFO] Connected to TTP at 127.0.0.1:4444
+2026-06-10 13:19:58,942 [INFO] Received TTP public key
+2026-06-10 13:19:58,943 [INFO] Sent registration to TTP
+2026-06-10 13:19:58,992 [INFO] Received X.509 certificate from TTP
+2026-06-10 13:19:58,992 [INFO] Listening on 127.0.0.1:5555
+2026-06-10 13:20:30,271 [WARNING] TTP connection lost
+2026-06-10 13:20:46,603 [INFO] Connected to TTP at 127.0.0.1:4444
+2026-06-10 13:20:46,605 [INFO] Received TTP public key
+2026-06-10 13:20:46,605 [INFO] Sent registration to TTP
+2026-06-10 13:20:46,655 [INFO] Received X.509 certificate from TTP
+2026-06-10 13:20:46,655 [INFO] Listening on 127.0.0.1:5555
+2026-06-10 13:20:59,120 [INFO] Client connected from 127.0.0.1:48396
+2026-06-10 13:20:59,120 [INFO] Service request from user d81a5571b2d78512 (type: encrypted_echo)
+2026-06-10 13:20:59,172 [INFO] Sent AUTH_SERVER to TTP for user d81a5571b2d78512
+2026-06-10 13:20:59,301 [INFO] Received session key from TTP (auth conn)
+2026-06-10 13:20:59,302 [INFO] Authentication complete — session active
+2026-06-10 13:20:59,336 [INFO] Client disconnected
+2026-06-10 13:21:00,954 [INFO] Client connected from 127.0.0.1:48406
+2026-06-10 13:21:00,955 [INFO] Service request from user 9ed88659781a6149 (type: encrypted_echo)
+2026-06-10 13:21:01,035 [INFO] Sent AUTH_SERVER to TTP for user 9ed88659781a6149
+2026-06-10 13:21:16,252 [WARNING] TTP connection lost
+2026-06-10 13:21:35,809 [INFO] Connected to TTP at 127.0.0.1:4444
+2026-06-10 13:21:35,810 [INFO] Received TTP public key
+2026-06-10 13:21:35,811 [INFO] Sent registration to TTP
+2026-06-10 13:21:35,861 [INFO] Received X.509 certificate from TTP
+2026-06-10 13:21:35,861 [INFO] Listening on 127.0.0.1:5555
+2026-06-10 13:21:39,928 [INFO] Client connected from 127.0.0.1:51956
+2026-06-10 13:21:39,928 [INFO] Service request from user d81a5571b2d78512 (type: encrypted_echo)
+2026-06-10 13:21:39,980 [INFO] Sent AUTH_SERVER to TTP for user d81a5571b2d78512
+2026-06-10 13:21:40,103 [INFO] Received session key from TTP (auth conn)
+2026-06-10 13:21:40,103 [INFO] Authentication complete — session active
+2026-06-10 13:21:40,142 [INFO] Client disconnected
+2026-06-10 13:21:42,296 [INFO] Client connected from 127.0.0.1:51972
+2026-06-10 13:21:42,297 [INFO] Service request from user 9ed88659781a6149 (type: encrypted_echo)
+2026-06-10 13:21:42,347 [INFO] Sent AUTH_SERVER to TTP for user 9ed88659781a6149
+2026-06-10 13:23:10,304 [INFO] Client connected from 127.0.0.1:37846
+2026-06-10 13:23:10,305 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 13:23:10,362 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 13:23:10,454 [INFO] Received session key from TTP (auth conn)
+2026-06-10 13:23:10,454 [INFO] Authentication complete — session active
+2026-06-10 13:23:13,296 [INFO] Received (encrypted): wwwwwww
+2026-06-10 13:23:13,297 [INFO] Sent response: Server echo: wwwwwww
+2026-06-10 13:23:14,368 [INFO] Received (encrypted): www
+2026-06-10 13:23:14,369 [INFO] Sent response: Server echo: www
+2026-06-10 13:23:14,660 [INFO] Received (encrypted): w
+2026-06-10 13:23:14,661 [INFO] Sent response: Server echo: w
+2026-06-10 13:23:14,865 [INFO] Received (encrypted): w
+2026-06-10 13:23:14,866 [INFO] Sent response: Server echo: w
+2026-06-10 13:23:15,049 [INFO] Received (encrypted): w
+2026-06-10 13:23:15,050 [INFO] Sent response: Server echo: w
+2026-06-10 13:23:15,252 [INFO] Received (encrypted): w
+2026-06-10 13:23:15,253 [INFO] Sent response: Server echo: w
+2026-06-10 13:23:17,897 [INFO] Session closed by client
+2026-06-10 13:24:26,133 [INFO] Server shut down
+2026-06-10 13:28:10,643 [INFO] Connected to TTP at 127.0.0.1:4444
+2026-06-10 13:28:10,643 [INFO] Received TTP public key
+2026-06-10 13:28:10,644 [INFO] Sent registration to TTP
+2026-06-10 13:28:10,695 [INFO] Received X.509 certificate from TTP
+2026-06-10 13:28:10,695 [INFO] Listening on 127.0.0.1:5555
+2026-06-10 13:28:25,378 [INFO] Client connected from 127.0.0.1:40422
+2026-06-10 13:28:25,380 [INFO] Service request from user 5196a4213b1e2b92 (type: encrypted_echo)
+2026-06-10 13:28:25,465 [INFO] Sent AUTH_SERVER to TTP for user 5196a4213b1e2b92
+2026-06-10 13:28:25,551 [INFO] Received session key from TTP (auth conn)
+2026-06-10 13:28:25,551 [INFO] Authentication complete — session active
+2026-06-10 13:28:29,974 [INFO] Received (encrypted): djdjdjdj\
+2026-06-10 13:28:29,975 [INFO] Sent response: Server echo: djdjdjdj\
+2026-06-10 13:28:31,182 [INFO] Received (encrypted): a
+2026-06-10 13:28:31,183 [INFO] Sent response: Server echo: a
+2026-06-10 13:28:31,337 [INFO] Received (encrypted): a
+2026-06-10 13:28:31,338 [INFO] Sent response: Server echo: a
+2026-06-10 13:28:35,302 [INFO] Client disconnected
+2026-06-10 13:28:41,046 [INFO] Client connected from 127.0.0.1:53194
+2026-06-10 13:28:41,046 [INFO] Service request from user d81a5571b2d78512 (type: encrypted_echo)
+2026-06-10 13:28:41,097 [INFO] Sent AUTH_SERVER to TTP for user d81a5571b2d78512
+2026-06-10 13:28:41,216 [INFO] Received session key from TTP (auth conn)
+2026-06-10 13:28:41,217 [INFO] Authentication complete — session active
+2026-06-10 13:28:41,260 [INFO] Client disconnected
+2026-06-10 13:28:43,316 [INFO] Client connected from 127.0.0.1:53200
+2026-06-10 13:28:43,317 [INFO] Service request from user 9ed88659781a6149 (type: encrypted_echo)
+2026-06-10 13:28:43,366 [INFO] Sent AUTH_SERVER to TTP for user 9ed88659781a6149
+2026-06-10 13:29:06,627 [WARNING] TTP connection lost
+2026-06-10 13:29:07,405 [INFO] Server shut down

@@ -27,3 +27,375 @@
 2026-06-07 17:21:13,913 [INFO] Session closed by user 'User-01'
 2026-06-07 17:21:15,203 [INFO] Connection closed for user 'User-01'
 2026-06-07 17:30:00,887 [INFO] TTP shut down
+2026-06-10 12:35:53,431 [INFO] TTP started — RSA keypair and self-signed cert generated
+2026-06-10 12:35:53,431 [INFO] Listening on 127.0.0.1:4444
+2026-06-10 12:36:00,914 [INFO] New connection from 127.0.0.1:36386
+2026-06-10 12:36:00,914 [INFO] Sent TTP public key to 127.0.0.1:36386
+2026-06-10 12:36:00,929 [INFO] Registered server 'Server-01' (id_hash=868dacd6fd42fb85) — certificate issued
+2026-06-10 12:37:33,445 [INFO] New connection from 127.0.0.1:52264
+2026-06-10 12:37:33,445 [INFO] Sent TTP public key to 127.0.0.1:52264
+2026-06-10 12:37:33,457 [INFO] Registered user 'User-01' (id_hash=5196a4213b1e2b92) — certificate issued
+2026-06-10 12:37:53,008 [INFO] New connection from 127.0.0.1:32842
+2026-06-10 12:37:53,009 [INFO] Sent TTP public key to 127.0.0.1:32842
+2026-06-10 12:37:53,054 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 12:37:53,095 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 12:37:53,096 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 12:37:53,096 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 12:37:53,136 [INFO] Connection closed for server 'Server-01'
+2026-06-10 12:37:53,159 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 12:37:53,160 [INFO] Session key sent to user 'User-01'
+2026-06-10 12:37:53,161 [ERROR] Failed to send session key to server: [Errno 9] Bad file descriptor
+2026-06-10 12:37:53,161 [ERROR] Failed to notify server of user auth: [Errno 9] Bad file descriptor
+2026-06-10 12:38:31,456 [INFO] New connection from 127.0.0.1:37654
+2026-06-10 12:38:31,457 [INFO] Sent TTP public key to 127.0.0.1:37654
+2026-06-10 12:38:31,470 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 12:38:31,552 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 12:38:31,553 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 12:38:31,553 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 12:38:31,594 [INFO] Connection closed for server 'Server-01'
+2026-06-10 12:38:31,614 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 12:38:31,615 [INFO] Session key sent to user 'User-01'
+2026-06-10 12:38:31,616 [ERROR] Failed to send session key to server: [Errno 9] Bad file descriptor
+2026-06-10 12:38:31,616 [ERROR] Failed to notify server of user auth: [Errno 9] Bad file descriptor
+2026-06-10 12:38:57,247 [INFO] Session closed by user 'User-01'
+2026-06-10 12:38:57,319 [INFO] Connection closed for user 'User-01'
+2026-06-10 12:39:13,063 [INFO] New connection from 127.0.0.1:55296
+2026-06-10 12:39:13,063 [INFO] Sent TTP public key to 127.0.0.1:55296
+2026-06-10 12:39:13,074 [INFO] Registered user 'User-01' (id_hash=5196a4213b1e2b92) — certificate issued
+2026-06-10 12:39:39,250 [INFO] Session closed by user 'User-01'
+2026-06-10 12:39:39,292 [INFO] Connection closed for user 'User-01'
+2026-06-10 12:39:40,746 [INFO] Connection closed for server 'Server-01'
+2026-06-10 12:39:44,311 [INFO] TTP shut down
+2026-06-10 12:40:37,307 [INFO] TTP started — RSA keypair and self-signed cert generated
+2026-06-10 12:40:37,307 [INFO] Listening on 127.0.0.1:4444
+2026-06-10 12:40:38,205 [INFO] New connection from 127.0.0.1:52790
+2026-06-10 12:40:38,206 [INFO] Sent TTP public key to 127.0.0.1:52790
+2026-06-10 12:40:38,216 [INFO] Registered server 'Server-01' (id_hash=868dacd6fd42fb85) — certificate issued
+2026-06-10 12:40:57,617 [INFO] New connection from 127.0.0.1:41586
+2026-06-10 12:40:57,618 [INFO] Sent TTP public key to 127.0.0.1:41586
+2026-06-10 12:40:57,630 [INFO] Registered user 'User-01' (id_hash=5196a4213b1e2b92) — certificate issued
+2026-06-10 12:41:01,439 [INFO] New connection from 127.0.0.1:36278
+2026-06-10 12:41:01,441 [INFO] Sent TTP public key to 127.0.0.1:36278
+2026-06-10 12:41:01,499 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 12:41:01,541 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 12:41:01,541 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 12:41:01,542 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 12:41:01,582 [INFO] Connection closed for server 'Server-01'
+2026-06-10 12:41:01,603 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 12:41:01,604 [INFO] Session key sent to user 'User-01'
+2026-06-10 12:41:01,605 [ERROR] Failed to send session key to server: [Errno 9] Bad file descriptor
+2026-06-10 12:41:01,605 [ERROR] Failed to notify server of user auth: [Errno 9] Bad file descriptor
+2026-06-10 12:41:55,461 [INFO] New connection from 127.0.0.1:49374
+2026-06-10 12:41:55,462 [INFO] Sent TTP public key to 127.0.0.1:49374
+2026-06-10 12:41:55,476 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 12:41:55,559 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 12:41:55,559 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 12:41:55,559 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 12:41:55,600 [INFO] Connection closed for server 'Server-01'
+2026-06-10 12:41:55,620 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 12:41:55,621 [INFO] Session key sent to user 'User-01'
+2026-06-10 12:41:55,622 [ERROR] Failed to send session key to server: [Errno 9] Bad file descriptor
+2026-06-10 12:41:55,623 [ERROR] Failed to notify server of user auth: [Errno 9] Bad file descriptor
+2026-06-10 12:42:11,563 [INFO] Session closed by user 'User-01'
+2026-06-10 12:42:18,477 [INFO] Session closed by user 'User-01'
+2026-06-10 12:42:22,074 [INFO] New connection from 127.0.0.1:42382
+2026-06-10 12:42:22,074 [INFO] Sent TTP public key to 127.0.0.1:42382
+2026-06-10 12:42:22,086 [INFO] Registered user 'User-01' (id_hash=5196a4213b1e2b92) — certificate issued
+2026-06-10 12:42:24,058 [INFO] New connection from 127.0.0.1:42394
+2026-06-10 12:42:24,059 [INFO] Sent TTP public key to 127.0.0.1:42394
+2026-06-10 12:42:24,099 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 12:42:24,181 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 12:42:24,182 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 12:42:24,182 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 12:42:24,222 [INFO] Connection closed for server 'Server-01'
+2026-06-10 12:42:24,253 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 12:42:24,254 [INFO] Session key sent to user 'User-01'
+2026-06-10 12:42:24,255 [ERROR] Failed to send session key to server: [Errno 9] Bad file descriptor
+2026-06-10 12:42:24,255 [ERROR] Failed to notify server of user auth: [Errno 9] Bad file descriptor
+2026-06-10 12:42:29,694 [INFO] New connection from 127.0.0.1:37794
+2026-06-10 12:42:29,695 [INFO] Sent TTP public key to 127.0.0.1:37794
+2026-06-10 12:42:29,732 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 12:42:29,813 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 12:42:29,814 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 12:42:29,814 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 12:42:29,856 [INFO] Connection closed for server 'Server-01'
+2026-06-10 12:42:29,875 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 12:42:29,876 [INFO] Session key sent to user 'User-01'
+2026-06-10 12:42:29,877 [ERROR] Failed to send session key to server: [Errno 9] Bad file descriptor
+2026-06-10 12:42:29,878 [ERROR] Failed to notify server of user auth: [Errno 9] Bad file descriptor
+2026-06-10 12:42:59,123 [INFO] New connection from 127.0.0.1:45188
+2026-06-10 12:42:59,124 [INFO] Sent TTP public key to 127.0.0.1:45188
+2026-06-10 12:42:59,160 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 12:42:59,243 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 12:42:59,243 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 12:42:59,246 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 12:42:59,284 [INFO] Connection closed for server 'Server-01'
+2026-06-10 12:42:59,306 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 12:42:59,307 [INFO] Session key sent to user 'User-01'
+2026-06-10 12:42:59,308 [ERROR] Failed to send session key to server: [Errno 9] Bad file descriptor
+2026-06-10 12:42:59,308 [ERROR] Failed to notify server of user auth: [Errno 9] Bad file descriptor
+2026-06-10 12:43:04,178 [INFO] New connection from 127.0.0.1:45192
+2026-06-10 12:43:04,179 [INFO] Sent TTP public key to 127.0.0.1:45192
+2026-06-10 12:43:04,196 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 12:43:04,277 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 12:43:04,278 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 12:43:04,280 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 12:43:04,319 [INFO] Connection closed for server 'Server-01'
+2026-06-10 12:43:04,340 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 12:43:04,341 [INFO] Session key sent to user 'User-01'
+2026-06-10 12:43:04,342 [ERROR] Failed to send session key to server: [Errno 9] Bad file descriptor
+2026-06-10 12:43:04,343 [ERROR] Failed to notify server of user auth: [Errno 9] Bad file descriptor
+2026-06-10 12:43:44,199 [INFO] New connection from 127.0.0.1:46486
+2026-06-10 12:43:44,200 [INFO] Sent TTP public key to 127.0.0.1:46486
+2026-06-10 12:43:44,239 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 12:43:44,321 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 12:43:44,322 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 12:43:44,322 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 12:43:44,364 [INFO] Connection closed for server 'Server-01'
+2026-06-10 12:43:44,384 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 12:43:44,385 [INFO] Session key sent to user 'User-01'
+2026-06-10 12:43:44,386 [ERROR] Failed to send session key to server: [Errno 9] Bad file descriptor
+2026-06-10 12:43:44,386 [ERROR] Failed to notify server of user auth: [Errno 9] Bad file descriptor
+2026-06-10 12:43:47,645 [INFO] New connection from 127.0.0.1:46488
+2026-06-10 12:43:47,645 [INFO] Sent TTP public key to 127.0.0.1:46488
+2026-06-10 12:43:47,655 [INFO] Registered user 'User-01' (id_hash=5196a4213b1e2b92) — certificate issued
+2026-06-10 12:43:48,357 [INFO] New connection from 127.0.0.1:46496
+2026-06-10 12:43:48,357 [INFO] Sent TTP public key to 127.0.0.1:46496
+2026-06-10 12:43:48,368 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 12:43:48,449 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 12:43:48,450 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 12:43:48,450 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 12:43:48,491 [INFO] Connection closed for server 'Server-01'
+2026-06-10 12:43:48,510 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 12:43:48,511 [INFO] Session key sent to user 'User-01'
+2026-06-10 12:43:48,512 [ERROR] Failed to send session key to server: [Errno 9] Bad file descriptor
+2026-06-10 12:43:48,512 [ERROR] Failed to notify server of user auth: [Errno 9] Bad file descriptor
+2026-06-10 12:43:56,410 [INFO] Connection closed for user 'User-01'
+2026-06-10 12:44:33,667 [INFO] Connection closed for server 'Server-01'
+2026-06-10 12:44:34,423 [INFO] TTP shut down
+2026-06-10 12:44:36,564 [INFO] TTP started — RSA keypair and self-signed cert generated
+2026-06-10 12:44:36,565 [INFO] Listening on 127.0.0.1:4444
+2026-06-10 12:44:38,261 [INFO] New connection from 127.0.0.1:47226
+2026-06-10 12:44:38,262 [INFO] Sent TTP public key to 127.0.0.1:47226
+2026-06-10 12:44:38,274 [INFO] Registered server 'Server-01' (id_hash=868dacd6fd42fb85) — certificate issued
+2026-06-10 12:44:53,463 [INFO] New connection from 127.0.0.1:40916
+2026-06-10 12:44:53,463 [INFO] Sent TTP public key to 127.0.0.1:40916
+2026-06-10 12:44:53,476 [INFO] Registered user 'User-01' (id_hash=5196a4213b1e2b92) — certificate issued
+2026-06-10 12:44:59,547 [INFO] New connection from 127.0.0.1:34386
+2026-06-10 12:44:59,548 [INFO] Sent TTP public key to 127.0.0.1:34386
+2026-06-10 12:44:59,591 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 12:44:59,632 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 12:44:59,633 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 12:44:59,633 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 12:44:59,673 [INFO] Connection closed for server 'Server-01'
+2026-06-10 12:44:59,695 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 12:44:59,696 [INFO] Session key sent to user 'User-01'
+2026-06-10 12:44:59,697 [ERROR] Failed to send session key to server: [Errno 9] Bad file descriptor
+2026-06-10 12:44:59,697 [ERROR] Failed to notify server of user auth: [Errno 9] Bad file descriptor
+2026-06-10 12:45:39,203 [INFO] Session closed by user 'User-01'
+2026-06-10 12:45:41,421 [INFO] New connection from 127.0.0.1:57932
+2026-06-10 12:45:41,422 [INFO] Sent TTP public key to 127.0.0.1:57932
+2026-06-10 12:45:41,432 [INFO] Registered user 'User-01' (id_hash=5196a4213b1e2b92) — certificate issued
+2026-06-10 12:45:42,521 [INFO] New connection from 127.0.0.1:57936
+2026-06-10 12:45:42,522 [INFO] Sent TTP public key to 127.0.0.1:57936
+2026-06-10 12:45:42,579 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 12:45:42,621 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 12:45:42,621 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 12:45:42,622 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 12:45:42,662 [INFO] Connection closed for server 'Server-01'
+2026-06-10 12:45:42,682 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 12:45:42,683 [INFO] Session key sent to user 'User-01'
+2026-06-10 12:45:42,684 [ERROR] Failed to send session key to server: [Errno 9] Bad file descriptor
+2026-06-10 12:45:42,685 [ERROR] Failed to notify server of user auth: [Errno 9] Bad file descriptor
+2026-06-10 12:48:49,287 [INFO] Connection closed for user 'User-01'
+2026-06-10 12:48:49,302 [INFO] Connection closed for user 'User-01'
+2026-06-10 13:01:37,225 [INFO] TTP started — RSA keypair and self-signed cert generated
+2026-06-10 13:01:37,225 [INFO] Listening on 127.0.0.1:4444
+2026-06-10 13:01:47,753 [INFO] New connection from 127.0.0.1:58264
+2026-06-10 13:01:47,754 [INFO] Sent TTP public key to 127.0.0.1:58264
+2026-06-10 13:01:47,768 [INFO] Registered server 'Server-01' (id_hash=868dacd6fd42fb85) — certificate issued
+2026-06-10 13:02:03,301 [INFO] New connection from 127.0.0.1:33338
+2026-06-10 13:02:03,302 [INFO] Sent TTP public key to 127.0.0.1:33338
+2026-06-10 13:02:03,314 [INFO] Registered user 'User-01' (id_hash=5196a4213b1e2b92) — certificate issued
+2026-06-10 13:02:08,158 [INFO] New connection from 127.0.0.1:34302
+2026-06-10 13:02:08,158 [INFO] Sent TTP public key to 127.0.0.1:34302
+2026-06-10 13:02:08,173 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 13:02:08,255 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 13:02:08,256 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 13:02:08,256 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 13:02:08,318 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 13:02:08,319 [INFO] Session key sent to user 'User-01'
+2026-06-10 13:02:08,320 [INFO] Session key sent to server 'Server-01'
+2026-06-10 13:02:08,341 [ERROR] Error handling 127.0.0.1:34302: [Errno 104] Connection reset by peer
+2026-06-10 13:02:43,126 [INFO] Session closed by user 'User-01'
+2026-06-10 13:02:49,001 [INFO] New connection from 127.0.0.1:50740
+2026-06-10 13:02:49,001 [INFO] Sent TTP public key to 127.0.0.1:50740
+2026-06-10 13:02:49,013 [INFO] Registered user 'User-01' (id_hash=5196a4213b1e2b92) — certificate issued
+2026-06-10 13:02:50,027 [INFO] New connection from 127.0.0.1:50744
+2026-06-10 13:02:50,027 [INFO] Sent TTP public key to 127.0.0.1:50744
+2026-06-10 13:02:50,042 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 13:02:50,124 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 13:02:50,124 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 13:02:50,124 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 13:02:50,172 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 13:02:50,172 [INFO] Session key sent to user 'User-01'
+2026-06-10 13:02:50,173 [INFO] Session key sent to server 'Server-01'
+2026-06-10 13:02:50,181 [ERROR] Error handling 127.0.0.1:50744: [Errno 104] Connection reset by peer
+2026-06-10 13:14:55,036 [INFO] Session closed by user 'User-01'
+2026-06-10 13:14:55,078 [INFO] Connection closed for user 'User-01'
+2026-06-10 13:14:55,079 [INFO] Connection closed for user 'User-01'
+2026-06-10 13:14:56,045 [INFO] Connection closed for server 'Server-01'
+2026-06-10 13:14:56,811 [INFO] TTP shut down
+2026-06-10 13:15:00,058 [INFO] TTP started — RSA keypair and self-signed cert generated
+2026-06-10 13:15:00,058 [INFO] Listening on 127.0.0.1:4444
+2026-06-10 13:15:01,280 [INFO] New connection from 127.0.0.1:47952
+2026-06-10 13:15:01,281 [INFO] Sent TTP public key to 127.0.0.1:47952
+2026-06-10 13:15:01,291 [INFO] Registered server 'Server-01' (id_hash=868dacd6fd42fb85) — certificate issued
+2026-06-10 13:15:11,920 [INFO] New connection from 127.0.0.1:48046
+2026-06-10 13:15:11,921 [INFO] Sent TTP public key to 127.0.0.1:48046
+2026-06-10 13:15:11,933 [INFO] Registered user 'User-01' (id_hash=5196a4213b1e2b92) — certificate issued
+2026-06-10 13:15:17,337 [INFO] New connection from 127.0.0.1:48058
+2026-06-10 13:15:17,337 [INFO] Sent TTP public key to 127.0.0.1:48058
+2026-06-10 13:15:17,353 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 13:15:17,435 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 13:15:17,436 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 13:15:17,436 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 13:15:17,497 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 13:15:17,498 [INFO] Session key sent to user 'User-01'
+2026-06-10 13:15:17,499 [INFO] Session key sent to server 'Server-01'
+2026-06-10 13:15:17,520 [ERROR] Error handling 127.0.0.1:48058: [Errno 104] Connection reset by peer
+2026-06-10 13:15:30,964 [INFO] Session closed by user 'User-01'
+2026-06-10 13:15:31,005 [INFO] Connection closed for user 'User-01'
+2026-06-10 13:19:14,666 [INFO] TTP started — RSA keypair and self-signed cert generated
+2026-06-10 13:19:16,875 [INFO] New connection from 127.0.0.1:56194
+2026-06-10 13:19:16,876 [INFO] Sent TTP public key to 127.0.0.1:56194
+2026-06-10 13:19:16,885 [INFO] Registered server 'Server-01' (id_hash=868dacd6fd42fb85) — certificate issued
+2026-06-10 13:19:16,994 [INFO] Connection closed for server 'Server-01'
+2026-06-10 13:19:56,263 [INFO] TTP started — RSA keypair and self-signed cert generated
+2026-06-10 13:19:56,263 [INFO] Listening on 127.0.0.1:4444
+2026-06-10 13:19:58,941 [INFO] New connection from 127.0.0.1:49702
+2026-06-10 13:19:58,941 [INFO] Sent TTP public key to 127.0.0.1:49702
+2026-06-10 13:19:58,951 [INFO] Registered server 'Server-01' (id_hash=868dacd6fd42fb85) — certificate issued
+2026-06-10 13:20:43,744 [INFO] TTP started — RSA keypair and self-signed cert generated
+2026-06-10 13:20:43,744 [INFO] Listening on 127.0.0.1:4444
+2026-06-10 13:20:46,603 [INFO] New connection from 127.0.0.1:55498
+2026-06-10 13:20:46,604 [INFO] Sent TTP public key to 127.0.0.1:55498
+2026-06-10 13:20:46,614 [INFO] Registered server 'Server-01' (id_hash=868dacd6fd42fb85) — certificate issued
+2026-06-10 13:20:59,070 [INFO] New connection from 127.0.0.1:51880
+2026-06-10 13:20:59,070 [INFO] Sent TTP public key to 127.0.0.1:51880
+2026-06-10 13:20:59,079 [INFO] Registered user 'Legitimate-User' (id_hash=d81a5571b2d78512) — certificate issued
+2026-06-10 13:20:59,121 [INFO] New connection from 127.0.0.1:51882
+2026-06-10 13:20:59,121 [INFO] Sent TTP public key to 127.0.0.1:51882
+2026-06-10 13:20:59,131 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 13:20:59,213 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 13:20:59,213 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 13:20:59,214 [INFO] Sent AUTH_USER_START to user 'Legitimate-User'
+2026-06-10 13:20:59,273 [INFO] User 'Legitimate-User' authenticated — distributing session key
+2026-06-10 13:20:59,274 [INFO] Session key sent to user 'Legitimate-User'
+2026-06-10 13:20:59,275 [INFO] Session key sent to server 'Server-01'
+2026-06-10 13:20:59,302 [ERROR] Error handling 127.0.0.1:51882: [Errno 104] Connection reset by peer
+2026-06-10 13:20:59,336 [INFO] Connection closed for user 'Legitimate-User'
+2026-06-10 13:21:00,878 [INFO] New connection from 127.0.0.1:51894
+2026-06-10 13:21:00,879 [INFO] Sent TTP public key to 127.0.0.1:51894
+2026-06-10 13:21:00,913 [INFO] Registered user 'Attacker-User' (id_hash=9ed88659781a6149) — certificate issued
+2026-06-10 13:21:00,956 [INFO] New connection from 127.0.0.1:51896
+2026-06-10 13:21:00,957 [INFO] Sent TTP public key to 127.0.0.1:51896
+2026-06-10 13:21:00,993 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 13:21:01,076 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 13:21:01,077 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 13:21:01,077 [INFO] Sent AUTH_USER_START to user 'Attacker-User'
+2026-06-10 13:21:01,136 [ERROR] User cert validation failed: 
+2026-06-10 13:21:08,185 [INFO] Connection closed for user 'Attacker-User'
+2026-06-10 13:21:34,846 [INFO] TTP started — RSA keypair and self-signed cert generated
+2026-06-10 13:21:34,846 [INFO] Listening on 127.0.0.1:4444
+2026-06-10 13:21:35,809 [INFO] New connection from 127.0.0.1:50932
+2026-06-10 13:21:35,809 [INFO] Sent TTP public key to 127.0.0.1:50932
+2026-06-10 13:21:35,820 [INFO] Registered server 'Server-01' (id_hash=868dacd6fd42fb85) — certificate issued
+2026-06-10 13:21:39,850 [INFO] New connection from 127.0.0.1:41652
+2026-06-10 13:21:39,851 [INFO] Sent TTP public key to 127.0.0.1:41652
+2026-06-10 13:21:39,887 [INFO] Registered user 'Legitimate-User' (id_hash=d81a5571b2d78512) — certificate issued
+2026-06-10 13:21:39,929 [INFO] New connection from 127.0.0.1:41658
+2026-06-10 13:21:39,929 [INFO] Sent TTP public key to 127.0.0.1:41658
+2026-06-10 13:21:39,939 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 13:21:40,021 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 13:21:40,021 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 13:21:40,022 [INFO] Sent AUTH_USER_START to user 'Legitimate-User'
+2026-06-10 13:21:40,080 [INFO] User 'Legitimate-User' authenticated — distributing session key
+2026-06-10 13:21:40,081 [INFO] Session key sent to user 'Legitimate-User'
+2026-06-10 13:21:40,082 [INFO] Session key sent to server 'Server-01'
+2026-06-10 13:21:40,103 [ERROR] Error handling 127.0.0.1:41658: [Errno 104] Connection reset by peer
+2026-06-10 13:21:40,142 [INFO] Connection closed for user 'Legitimate-User'
+2026-06-10 13:21:42,247 [INFO] New connection from 127.0.0.1:41668
+2026-06-10 13:21:42,247 [INFO] Sent TTP public key to 127.0.0.1:41668
+2026-06-10 13:21:42,255 [INFO] Registered user 'Attacker-User' (id_hash=9ed88659781a6149) — certificate issued
+2026-06-10 13:21:42,297 [INFO] New connection from 127.0.0.1:41680
+2026-06-10 13:21:42,297 [INFO] Sent TTP public key to 127.0.0.1:41680
+2026-06-10 13:21:42,306 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 13:21:42,388 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 13:21:42,389 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 13:21:42,389 [INFO] Sent AUTH_USER_START to user 'Attacker-User'
+2026-06-10 13:21:42,445 [ERROR] User cert validation failed: 
+2026-06-10 13:21:49,493 [INFO] Connection closed for user 'Attacker-User'
+2026-06-10 13:23:08,406 [INFO] New connection from 127.0.0.1:32896
+2026-06-10 13:23:08,406 [INFO] Sent TTP public key to 127.0.0.1:32896
+2026-06-10 13:23:08,418 [INFO] Registered user 'User-01' (id_hash=5196a4213b1e2b92) — certificate issued
+2026-06-10 13:23:10,306 [INFO] New connection from 127.0.0.1:32904
+2026-06-10 13:23:10,307 [INFO] Sent TTP public key to 127.0.0.1:32904
+2026-06-10 13:23:10,321 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 13:23:10,403 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 13:23:10,403 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 13:23:10,403 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 13:23:10,448 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 13:23:10,449 [INFO] Session key sent to user 'User-01'
+2026-06-10 13:23:10,449 [INFO] Session key sent to server 'Server-01'
+2026-06-10 13:23:10,454 [ERROR] Error handling 127.0.0.1:32904: [Errno 104] Connection reset by peer
+2026-06-10 13:23:17,897 [INFO] Session closed by user 'User-01'
+2026-06-10 13:23:19,344 [INFO] Connection closed for user 'User-01'
+2026-06-10 13:24:26,149 [INFO] Connection closed for server 'Server-01'
+2026-06-10 13:24:26,149 [INFO] Connection closed for server 'Server-01'
+2026-06-10 13:24:27,048 [INFO] TTP shut down
+2026-06-10 13:28:09,827 [INFO] TTP started — RSA keypair and self-signed cert generated
+2026-06-10 13:28:09,827 [INFO] Listening on 127.0.0.1:4444
+2026-06-10 13:28:10,643 [INFO] New connection from 127.0.0.1:53830
+2026-06-10 13:28:10,643 [INFO] Sent TTP public key to 127.0.0.1:53830
+2026-06-10 13:28:10,654 [INFO] Registered server 'Server-01' (id_hash=868dacd6fd42fb85) — certificate issued
+2026-06-10 13:28:18,452 [INFO] New connection from 127.0.0.1:42404
+2026-06-10 13:28:18,452 [INFO] Sent TTP public key to 127.0.0.1:42404
+2026-06-10 13:28:18,463 [INFO] Registered user 'User-01' (id_hash=5196a4213b1e2b92) — certificate issued
+2026-06-10 13:28:25,381 [INFO] New connection from 127.0.0.1:42406
+2026-06-10 13:28:25,382 [INFO] Sent TTP public key to 127.0.0.1:42406
+2026-06-10 13:28:25,424 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 13:28:25,466 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 13:28:25,467 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 13:28:25,467 [INFO] Sent AUTH_USER_START to user 'User-01'
+2026-06-10 13:28:25,528 [INFO] User 'User-01' authenticated — distributing session key
+2026-06-10 13:28:25,529 [INFO] Session key sent to user 'User-01'
+2026-06-10 13:28:25,530 [INFO] Session key sent to server 'Server-01'
+2026-06-10 13:28:25,551 [ERROR] Error handling 127.0.0.1:42406: [Errno 104] Connection reset by peer
+2026-06-10 13:28:35,302 [INFO] Connection closed for user 'User-01'
+2026-06-10 13:28:40,996 [INFO] New connection from 127.0.0.1:52296
+2026-06-10 13:28:40,996 [INFO] Sent TTP public key to 127.0.0.1:52296
+2026-06-10 13:28:41,005 [INFO] Registered user 'Legitimate-User' (id_hash=d81a5571b2d78512) — certificate issued
+2026-06-10 13:28:41,047 [INFO] New connection from 127.0.0.1:52306
+2026-06-10 13:28:41,047 [INFO] Sent TTP public key to 127.0.0.1:52306
+2026-06-10 13:28:41,056 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 13:28:41,138 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 13:28:41,139 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 13:28:41,139 [INFO] Sent AUTH_USER_START to user 'Legitimate-User'
+2026-06-10 13:28:41,197 [INFO] User 'Legitimate-User' authenticated — distributing session key
+2026-06-10 13:28:41,198 [INFO] Session key sent to user 'Legitimate-User'
+2026-06-10 13:28:41,199 [INFO] Session key sent to server 'Server-01'
+2026-06-10 13:28:41,217 [ERROR] Error handling 127.0.0.1:52306: [Errno 104] Connection reset by peer
+2026-06-10 13:28:41,260 [INFO] Connection closed for user 'Legitimate-User'
+2026-06-10 13:28:43,267 [INFO] New connection from 127.0.0.1:52322
+2026-06-10 13:28:43,267 [INFO] Sent TTP public key to 127.0.0.1:52322
+2026-06-10 13:28:43,275 [INFO] Registered user 'Attacker-User' (id_hash=9ed88659781a6149) — certificate issued
+2026-06-10 13:28:43,317 [INFO] New connection from 127.0.0.1:52334
+2026-06-10 13:28:43,317 [INFO] Sent TTP public key to 127.0.0.1:52334
+2026-06-10 13:28:43,325 [INFO] Registered server 'Server-01' (id_hash=637b383472d739b7) — certificate issued
+2026-06-10 13:28:43,407 [INFO] Server 'Server-01' authenticated — proceeding to user auth
+2026-06-10 13:28:43,407 [INFO] Sent AUTH_OK to server 'Server-01'
+2026-06-10 13:28:43,408 [INFO] Sent AUTH_USER_START to user 'Attacker-User'
+2026-06-10 13:28:43,457 [ERROR] User cert validation failed: 
+2026-06-10 13:28:50,505 [INFO] Connection closed for user 'Attacker-User'
+2026-06-10 13:29:06,579 [INFO] TTP shut down

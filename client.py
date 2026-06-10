@@ -1,12 +1,5 @@
 """
-@brief Client GUI application for the BSK project.
-
-Provides a graphical user interface (tkinter) for the User to:
-- Register with the TTP and obtain an X.509 certificate
-- Request a service from the Server
-- Participate in mutual authentication via the TTP
-- Exchange AES-256-GCM encrypted messages with the Server
-- View connection status via a colored indicator icon
+Client GUI application for the BSK project.
 
 Usage:
     python3 client.py
@@ -22,15 +15,6 @@ from common import *
 
 
 class Status:
-    """
-    @brief Connection state constants for the client application.
-
-    These states represent the lifecycle of a client connection:
-    - DISCONNECTED: Not connected to TTP
-    - REGISTERED: Registered with TTP, has a valid certificate
-    - AUTHENTICATED: Mutual auth complete, has session key
-    - SESSION_ACTIVE: Encrypted communication in progress
-    """
     DISCONNECTED = "disconnected"
     REGISTERED = "registered"
     AUTHENTICATED = "authenticated"
@@ -38,39 +22,22 @@ class Status:
 
 
 class ClientGUI:
-    """
-    @brief Main client application with tkinter GUI.
-
-    Provides UI elements for connection management, status display,
-    encrypted messaging, and event logging. All network operations
-    run in background threads to keep the GUI responsive.
-    """
 
     def __init__(self):
-        """
-        @brief Initialize the client application.
-
-        Sets up the tkinter main window with all UI frames,
-        generates the client's RSA 4096 key pair, and initializes
-        connection state.
-        """
         self.root = tk.Tk()
         self.root.title("BSK Client — Secure Communication")
         self.root.geometry("700x600")
         self.root.resizable(True, True)
 
-        # Client identity
         self.client_id = "User-01"
         self.client_key = generate_rsa_keypair()
         self.client_cert_pem = None
         self.client_id_hash = None
 
-        # Connections
         self.ttp_sock = None
         self.server_sock = None
         self.session_key = None
 
-        # State
         self.status = Status.DISCONNECTED
         self.ttp_public_key = None
         self.auth_in_progress = False
@@ -79,16 +46,6 @@ class ClientGUI:
         self._update_status()
 
     def _build_ui(self):
-        """
-        @brief Construct the tkinter GUI layout.
-
-        Creates four UI sections:
-        1. Connection frame — TTP/Server address fields and action buttons
-        2. Status frame — colored indicator and current state label
-        3. Messages frame — encrypted message display and input area
-        4. Log frame — timestamped event log
-        """
-        # --- Connection Frame ---
         conn_frame = ttk.LabelFrame(self.root, text="Connection", padding=5)
         conn_frame.pack(fill="x", padx=10, pady=5)
 
@@ -134,7 +91,6 @@ class ClientGUI:
             conn_frame, text="Disconnect", command=self._disconnect
         ).grid(row=2, column=3, padx=5, pady=(5, 0))
 
-        # --- Status Frame ---
         status_frame = ttk.LabelFrame(self.root, text="Status", padding=5)
         status_frame.pack(fill="x", padx=10, pady=5)
 
@@ -153,7 +109,6 @@ class ClientGUI:
         self.auth_label = ttk.Label(status_frame, text="")
         self.auth_label.grid(row=0, column=2, sticky="w", padx=(20, 0))
 
-        # --- Message Frame ---
         msg_frame = ttk.LabelFrame(self.root, text="Encrypted Messages", padding=5)
         msg_frame.pack(fill="both", expand=True, padx=10, pady=5)
 
@@ -179,7 +134,6 @@ class ClientGUI:
         )
         self.btn_close.pack(side="right", padx=(0, 5))
 
-        # --- Log Frame ---
         log_frame = ttk.LabelFrame(self.root, text="Event Log", padding=5)
         log_frame.pack(fill="x", padx=10, pady=(0, 10))
 
@@ -191,39 +145,18 @@ class ClientGUI:
     # --- GUI helpers ---
 
     def _log(self, message):
-        """
-        @brief Append a message to the event log display.
-
-        @param message  The text to append.
-        """
         self.log_display.config(state="normal")
         self.log_display.insert("end", message + "\n")
         self.log_display.see("end")
         self.log_display.config(state="disabled")
 
     def _display_msg(self, direction, text):
-        """
-        @brief Display a sent or received message in the encrypted messages area.
-
-        @param direction  "SENT (encrypted)" or "RECEIVED (encrypted)".
-        @param text       The decrypted message content.
-        """
         self.msg_display.config(state="normal")
         self.msg_display.insert("end", f"{direction}: {text}\n")
         self.msg_display.see("end")
         self.msg_display.config(state="disabled")
 
     def _update_status(self, auth_info=None):
-        """
-        @brief Update the status indicator icon and label.
-
-        The icon color reflects the current state:
-        - Red: Disconnected
-        - Orange: Registered with TTP
-        - Green: Authenticated or Session Active
-
-        @param auth_info  Optional text to display in the auth info label.
-        """
         colors = {
             Status.DISCONNECTED: "red",
             Status.REGISTERED: "orange",
@@ -246,15 +179,6 @@ class ClientGUI:
     # --- Actions ---
 
     def _register(self):
-        """
-        @brief Register the client with the TTP.
-
-        Opens a TCP connection to the TTP, receives the TTP's RSA public key,
-        sends the client's registration payload (ID hash + public key) using
-        hybrid RSA-AES encryption, and obtains an X.509 certificate.
-
-        Runs the network operations in a background thread.
-        """
         if self.ttp_sock:
             self._log("[!] Already registered with TTP")
             return
@@ -272,7 +196,6 @@ class ClientGUI:
                 ))
                 self.ttp_sock = sock
 
-                # Receive TTP public key
                 msg = recv_msg(sock)
                 if not msg or msg.get("type") != MSG_TTP_PUBLIC_KEY:
                     self.root.after(0, lambda: self._log(
@@ -287,7 +210,6 @@ class ClientGUI:
                     "[+] Received TTP public key"
                 ))
 
-                # Send registration
                 id_hash = hash_id(self.client_id)
                 self.client_id_hash = id_hash
                 pub_pem = serialize_public_key(self.client_key.public_key())
@@ -306,7 +228,6 @@ class ClientGUI:
                     "ciphertext": ct.hex(),
                 })
 
-                # Receive certificate
                 msg = recv_msg(sock)
                 if not msg or msg.get("type") != MSG_CERTIFICATE:
                     self.root.after(0, lambda: self._log(
@@ -328,12 +249,6 @@ class ClientGUI:
         threading.Thread(target=task, daemon=True).start()
 
     def _on_registered(self):
-        """
-        @brief Callback when registration with TTP completes successfully.
-
-        Updates UI state, starts the TTP message listener thread,
-        and enables the "Request Service" button.
-        """
         self._log(f"[+] Registered with TTP as '{self.client_id}'")
         self._log(f"[+] ID hash: {self.client_id_hash[:16]}...")
         self._log(f"[+] X.509 certificate obtained from TTP")
@@ -343,12 +258,6 @@ class ClientGUI:
         self._start_ttp_listener()
 
     def _start_ttp_listener(self):
-        """
-        @brief Start a background thread to listen for TTP messages.
-
-        The listener runs on the persistent TTP connection and dispatches
-        incoming messages to _handle_ttp_message via the tkinter event queue.
-        """
         def listener():
             sock = self.ttp_sock
             try:
@@ -365,16 +274,6 @@ class ClientGUI:
         threading.Thread(target=listener, daemon=True).start()
 
     def _handle_ttp_message(self, msg):
-        """
-        @brief Process a message received from TTP.
-
-        Handles:
-        - AUTH_USER_START: TTP asks user to respond to authentication challenge
-        - AUTH_OK: Authentication succeeded, session key is delivered
-        - ERROR: TTP reports an error condition
-
-        @param msg  The deserialized message dictionary from TTP.
-        """
         msg_type = msg.get("type")
         if msg_type == MSG_AUTH_USER_START:
             self._log("[TTP] Server authenticated, please authenticate yourself")
@@ -401,15 +300,6 @@ class ClientGUI:
             self._log(f"[!] TTP error: {msg.get('message')}")
 
     def _respond_auth(self):
-        """
-        @brief Send authentication response to TTP.
-
-        Encrypts the client's ID hash and X.509 certificate using hybrid
-        encryption (RSA + AES) with the TTP's public key, and sends
-        the payload to the TTP.
-
-        Runs the network operation in a background thread.
-        """
         def task():
             try:
                 payload = json.dumps({
@@ -432,26 +322,11 @@ class ClientGUI:
         threading.Thread(target=task, daemon=True).start()
 
     def _on_authenticated(self):
-        """
-        @brief Callback when mutual authentication is complete.
-
-        Disables the "Request Service" button and enables the
-        "Send" and "Close Session" buttons.
-        """
         self.btn_service.config(state="disabled")
         self.btn_send.config(state="normal")
         self.btn_close.config(state="normal")
 
     def _request_service(self):
-        """
-        @brief Send a service request to the Server.
-
-        Connects to the Server, sends a SERVICE_REQUEST message containing
-        the user's ID hash and the requested service type, then starts
-        listening for Server messages in a background thread.
-
-        Runs the network operations in a background thread.
-        """
         if self.server_sock:
             self._log("[!] Already connected to server")
             return
@@ -481,12 +356,6 @@ class ClientGUI:
         threading.Thread(target=task, daemon=True).start()
 
     def _start_server_listener(self):
-        """
-        @brief Start a background thread to listen for Server messages.
-
-        Forwards incoming messages to _handle_server_message via the
-        tkinter event queue.
-        """
         def listener():
             sock = self.server_sock
             try:
@@ -503,17 +372,6 @@ class ClientGUI:
         threading.Thread(target=listener, daemon=True).start()
 
     def _handle_server_message(self, msg):
-        """
-        @brief Process a message received from the Server.
-
-        Handles:
-        - ENCRYPTED_DATA: Decrypts and displays the message
-        - AUTH_OK: Authentication status from TTP (forwarded by server)
-        - ERROR: Server error
-        - SESSION_CLOSE: Server ended the session
-
-        @param msg  The deserialized message dictionary.
-        """
         msg_type = msg.get("type")
         if msg_type == MSG_ENCRYPTED_DATA:
             nonce = bytes.fromhex(msg["nonce"])
@@ -533,14 +391,6 @@ class ClientGUI:
             self._reset_session()
 
     def _send_message(self):
-        """
-        @brief Encrypt and send a message to the Server.
-
-        Encrypts the input text using AES-256-GCM with the session key
-        and sends it as an ENCRYPTED_DATA message.
-
-        Runs the network operation in a background thread.
-        """
         text = self.msg_entry.get().strip()
         if not text or not self.session_key or not self.server_sock:
             return
@@ -567,12 +417,6 @@ class ClientGUI:
         threading.Thread(target=task, daemon=True).start()
 
     def _close_session(self):
-        """
-        @brief Close the current encrypted session.
-
-        Sends SESSION_CLOSE messages to both Server and TTP,
-        then resets the session state.
-        """
         if self.server_sock:
             try:
                 send_msg(self.server_sock, {"type": MSG_SESSION_CLOSE})
@@ -587,11 +431,6 @@ class ClientGUI:
         self._reset_session()
 
     def _reset_session(self):
-        """
-        @brief Reset session state after disconnection.
-
-        Clears the session key and returns UI to the post-registration state.
-        """
         self.session_key = None
         self.status = Status.REGISTERED
         self._update_status("Session closed")
@@ -600,19 +439,11 @@ class ClientGUI:
         self.btn_service.config(state="normal")
 
     def _on_server_disconnect(self):
-        """
-        @brief Handle unexpected Server disconnection.
-        """
         self.server_sock = None
         self._log("[!] Server disconnected")
         self._reset_session()
 
     def _on_ttp_disconnect(self):
-        """
-        @brief Handle unexpected TTP disconnection.
-
-        Returns the client to the disconnected state.
-        """
         self.ttp_sock = None
         self._log("[!] TTP disconnected")
         self.status = Status.DISCONNECTED
@@ -623,12 +454,6 @@ class ClientGUI:
         self.btn_close.config(state="disabled")
 
     def _disconnect(self):
-        """
-        @brief Disconnect from all servers and the TTP.
-
-        Closes both the Server and TTP connections and resets
-        all state to DISCONNECTED.
-        """
         self._close_session()
         if self.server_sock:
             try:
@@ -651,26 +476,15 @@ class ClientGUI:
         self._log("[-] Disconnected")
 
     def run(self):
-        """
-        @brief Start the tkinter main event loop.
-        """
         self.root.protocol("WM_DELETE_WINDOW", self._on_close)
         self.root.mainloop()
 
     def _on_close(self):
-        """
-        @brief Clean up resources and close the application window.
-        """
         self._disconnect()
         self.root.destroy()
 
 
 def main():
-    """
-    @brief Entry point for the Client GUI application.
-
-    Creates a ClientGUI instance and starts the main event loop.
-    """
     app = ClientGUI()
     app.run()
 
